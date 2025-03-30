@@ -21,7 +21,6 @@ This project supports a 5-year corporate strategy for a company launching its ow
 - Zeena Lisa Karari
 
 ## Project Structure
-```
 group4_phase2_project/
 ├── data/
 │   ├── im.db              # SQLite database with IMDb data
@@ -32,7 +31,7 @@ group4_phase2_project/
 ├── film_analysis.ipynb    # Jupyter notebook with full analysis
 ├── presentation.pdf       # Summary presentation slides
 └── README.md              # This file
-```
+
 
 ## Setup Instructions
 
@@ -44,14 +43,14 @@ group4_phase2_project/
 
 ### Installation
 #### Clone the Repository
-```bash
+bash
 git clone <repository-url>
 cd group4_phase2_project
-```
+
 #### Install Dependencies
-```bash
+bash
 pip install pandas numpy plotly matplotlib seaborn statsmodels sqlite3
-```
+
 #### Verify Data Files
 Ensure all data files are in the `data/` directory as listed above. The notebook expects:
 - `im.db`: SQLite database with `movie_basics` and `movie_ratings` tables.
@@ -134,17 +133,6 @@ _Higher-rated films tend to be more profitable, but budget has a greater effect 
 ## Conclusion
 For a profitable studio launch, the company should prioritize high-ROI genres like Biography and Documentary while strategically increasing production budgets to drive sales. Quality films with strong ratings will further enhance market performance, aligning with current trends and audience preferences.
 
-## Notes
-- The notebook includes bar charts, histograms, scatter plots, and regression analyses to support findings.
-- Ensure data files match the notebook’s expected format to avoid runtime errors.
 
----
 
-### Saving the File
-To use this as a `.md` file:
-1. Copy the content above.
-2. Paste it into a text editor (e.g., VS Code, Notepad).
-3. Save it as `README.md` in your project directory.
-
-This file will render properly in Markdown viewers such as GitHub.
 
