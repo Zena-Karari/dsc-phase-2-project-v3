@@ -4,7 +4,7 @@
 This project supports a 5-year corporate strategy for a company launching its own movie studio to create original video content. With no prior film production experience, the company aims to use data-driven insights to understand box office trends and guide its investment decisions. The analysis focuses on film performance across genres, individual movies, production budgets, and ratings to maximize commercial success and return on investment (ROI).
 
 ### Repository Contents
-- **`film_analysis.ipynb`** - Jupyter notebook with detailed data exploration, analysis, visualizations, and statistical tests.
+- **`student.ipynb`** - Jupyter notebook with detailed data exploration, analysis, visualizations, and statistical tests.
 - **`presentation.pdf`** - Summary of key findings and recommendations.
 - **Data Files** - From Box Office Mojo, IMDb, Rotten Tomatoes, The Movie DB, and The Numbers.
 
@@ -20,21 +20,7 @@ This project supports a 5-year corporate strategy for a company launching its ow
 - Robert Sumaili
 - Zeena Lisa Karari
 
-## Project Structure
-group4_phase2_project/
-├── data/
-│   ├── im.db              # SQLite database with IMDb data
-│   ├── rt.movie_info.tsv  # Rotten Tomatoes movie info (tab-delimited)
-│   ├── rt_reviews.tsv     # Rotten Tomatoes reviews (tab-delimited)
-│   ├── movie_budget.csv   # Budget and gross data (assumed format)
-│   └── ...                # Additional data files as needed
-├── film_analysis.ipynb    # Jupyter notebook with full analysis
-├── presentation.pdf       # Summary presentation slides
-└── README.md              # This file
-
-
 ## Setup Instructions
-
 ### Prerequisites
 - Python 3.8 or higher
 - Jupyter Notebook or VS Code with Jupyter extension
@@ -60,22 +46,13 @@ Ensure all data files are in the `data/` directory as listed above. The notebook
 #### Run the Notebook
 Open the notebook in Jupyter or VS Code:
 ```bash
-jupyter notebook film_analysis.ipynb
+jupyter notebook student.ipynb
 ```
 Or in VS Code:
-1. Open `film_analysis.ipynb`.
+1. Open `student.ipynb`.
 2. Run all cells.
 
-#### Saving as PDF
-To save the notebook with outputs as a PDF:
-- **In VS Code:**
-  1. Open `film_analysis.ipynb`.
-  2. Click `...` on the toolbar, select `Export`, and choose `HTML`.
-  3. Open the HTML file in a browser, then print to PDF (`File > Print > Save as PDF`).
-- **Command Line (requires LaTeX):**
-  ```bash
-  jupyter nbconvert --to pdf film_analysis.ipynb
-  ```
+
 
 ## Data Sources
 - **Box Office Mojo**: Budget and gross data ([boxofficemojo.com](https://www.boxofficemojo.com))
